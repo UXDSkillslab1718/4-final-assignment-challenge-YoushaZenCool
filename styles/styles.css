@@ -1,0 +1,230 @@
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+/* Global styles
+-------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: white;
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.content-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+.profile-img {
+  align-items: center;
+}
+
+.pictures-small, .pictures-big {
+  background-size: cover;
+  max-width: 29%;
+  height: auto;
+  overflow: auto;
+  display: inline-block;
+  border: 2px solid;
+  color: pink;
+}
+
+.resume-1 {
+  margin-right: 6%;
+}
+
+.resume-3 {
+  margin-left: 6%;
+}
+
+.portfolio-1, .portfolio-3 {
+  float: left;
+  margin: 5px 40px 40px 0px;
+}
+
+.portfolio-2, .portfolio-4 {
+  float: right;
+  margin: 5px 0px 40px 40px;
+}
+
+.pictures-big {
+  max-width: 55%;
+}
+
+.spotlight-1, .spotlight-3 {
+  float: left;
+  margin: 5px 40px 40px 0px;
+}
+
+.spotlight-2, .spotlight-4 {
+  float: right;
+  margin: 5px 0px 40px 40px;
+}
+
+/* Header and Footer
+-------------------------*/
+/* header */
+header {
+  background: #F5F5F5;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  background: #BCBCBC;
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn {
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Short History Lesson
+-------------------------*/
+.history {
+  background: #E5E1E0;
+}
+
+/* Navigation
+-------------------------*/
+nav {
+  text-align: center;
+  background: #313131;
+  position: fixed;
+  top: 0;
+  width: 900px;
+  /*z-index: 100;*/
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.home {
+  margin-right: 100px;
+}
+
+/* Work Experience
+-------------------------*/
+.work {
+  background: #E5E1E0;
+}
+
+/* Education
+-------------------------*/
+.education {
+  background: #BDCEDE;
+  position: relative;
+}
+
+/* Item 1
+-------------------------*/
+.item-1 {
+  background: #E5E1E0;
+}
+
+/* Item 1
+-------------------------*/
+.item-2 {
+  background: #BDCEDE;
+}
+
+/* Item 1
+-------------------------*/
+.item-3 {
+  background: #E5E1E0;
+}
+
+/* Item 1
+-------------------------*/
+.item-4 {
+  background: #D9E8DF;
+}
+
+/* Media Queries
+-------------------------*/
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div+div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  height: 1em;
+  text-align: right;
+}
+
+input, textarea {
+  width: 300px;
+  height: 2em;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  font-size: 1em;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 10em;
+}
+
+.button {
+  padding-left: 95px;
+}
+
+button {
+  margin-left: .5em;
+  width: auto;
+  font-size: 1em;
+  padding: 10px;
+}
