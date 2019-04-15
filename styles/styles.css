@@ -34,6 +34,9 @@ h2 {
 
 .profile-img {
   align-items: center;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 30px;
 }
 
 .pictures-small, .pictures-big {
@@ -227,4 +230,7 @@ button {
   width: auto;
   font-size: 1em;
   padding: 10px;
+}
+.profile-img {
+  width: 200px;
 }
