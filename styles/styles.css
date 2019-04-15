@@ -36,14 +36,16 @@ h2 {
 
 .pictures-small, .pictures-big {
   background-size: cover;
-  max-width: 29%;
+  max-width: 40%;
   height: auto;
   overflow: auto;
   display: inline-block;
   border: 2px solid;
   color: pink;
 }
-
+.resume-1, .resume-2, .resume-3 {
+  max-width: 29%;
+}
 .resume-1 {
   margin-right: 6%;
 }
